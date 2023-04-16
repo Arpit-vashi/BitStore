@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+body{background-color: #eee}.buttons{margin-top :20px; padding: 0;height: 75px;display: flex;justify-content: center;align-items: center}.cart-button{position: relative;outline: 0;background-color: #0c2945;color: #fff;border: none;height: 48px;width: 200px;padding: 10px;border-radius: 10px;line-height: 0px;overflow: hidden;cursor:pointer}.cart-button:focus{outline: none !important}.cart-button .fa-shopping-cart{position: absolute;z-index: 2;top: 50%;left: -20%;font-size: 1.8em;transform: translate(-50%, -50%)}.cart-button .fa-square{position: absolute;z-index: 1;top: -20%;left: 53%;font-size: 0.8em;transform: translate(-50%, -50%)}.cart-button span{position: absolute;left: 50%;top: 50%;color: #fff;transform: translate(-50%, -50%)}.cart-button span.added{opacity: 0}.cart-button.clicked .fa-shopping-cart{animation: cart 1s ease-in forwards}.cart-button.clicked .fa-square{animation: box 1s ease-in forwards}.cart-button.clicked span.add-to-cart{animation: addcart 1s ease-in forwards}.cart-button.clicked span.added{animation: added 1s ease-in forwards}@keyframes cart{0%{left: -10%}40%, 60%{left: 50%}100%{left: 110%}}@keyframes box{0%, 40%{top: -20%}60%{top: 36%;left: 53%}100%{top: 40%;left: 112%}}@keyframes addcart{0%, 30%{opacity: 1}30%, 100%{opacity: 0}}@keyframes added{0%, 80%{opacity: 0}100%{opacity: 1}}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+

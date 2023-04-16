@@ -1,0 +1,28 @@
+{
+  "name": "bitstore",
+  "version": "1.0.0",
+  "description": "POS solution on the go.",
+  "main": "server.js",
+  "scripts": {
+    "test": "dev",
+    "dev": "nodemon server.js",
+    "production": "node server.js",
+    "seed": "node seeder.js",
+    "client": "npm start --prefix ../frontend/client"
+  },
+  "author": "devloper.me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "modules": "^0.4.0",
+    "mongoose": "^7.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}

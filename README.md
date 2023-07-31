@@ -16,8 +16,6 @@ Built using the cutting-edge MERN (MongoDB, Express, React, Node.js) stack, this
 💡 **Why Use this POS Website?**
 Whether you're running a retail store, restaurant, or any business requiring efficient POS capabilities, this website is designed to meet your specific needs. It offers a scalable and adaptable solution to help you streamline operations and maximize profits.
 
-🔍 **Demo**
-To experience the website's functionalities, check out the live demo at [www.your-pos-website-url.com](https://www.your-pos-website-url.com).
 
 🤝 **Contribution**
 I welcome contributions, feedback, and suggestions to enhance the website's features and performance. Feel free to open issues or submit pull requests to collaborate on this exciting project.
